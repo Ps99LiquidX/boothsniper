@@ -7,7 +7,7 @@ getgenv().config = {
         version = nil, -- nil is normal, 1 is gold, 2 is rainbow
         shiny = nil, -- nil is normal, true is shiny
         tier = nil, -- nil is no tier, number if enchant/potion
-        price = "250k"
+        price = "300k"
     },
     prices = {
         anyExclusiveUnder = "1",
@@ -15,7 +15,7 @@ getgenv().config = {
         anyTitanicUnder = "1b",
     },
     extraItems = {
-        {class = "Misc", name = "Mythical Glitch Core", price = "1500k", version = nil, shiny = nil, tier = nil},
+        {class = "Misc", name = "Mythical Glitch Core", price = "2000k", version = nil, shiny = nil, tier = nil},
         {class = "Misc", name = "", price = "50k", version = nil, shiny = nil, tier = nil},
         {class = "Misc", name = "", price = "10k", version = nil, shiny = nil, tier = nil},
         {class = "Misc", name = "", price = "5k", version = nil, shiny = nil, tier = nil},
