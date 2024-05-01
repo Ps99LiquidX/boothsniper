@@ -1,5 +1,5 @@
 getgenv().config = {
-    fps = 10,
+    fps = 60,
     webhookUrl = "https://discord.com/api/webhooks/1234337127425118278/Ny7aH5kax59d9danRzVr3Rn-DhOYIU-AjGj6HC0fAgo8njzLZCbiteAZmqZSruvAQlJU",
     terminalSearchQuery = {
         class = "Misc",
@@ -10,22 +10,15 @@ getgenv().config = {
         price = "300k"
     },
     prices = {
-        anyExclusiveUnder = "1",
-        anyHugeUnder = "40m",
+        anyExclusiveUnder = "1m",
+        anyHugeUnder = "30m",
         anyTitanicUnder = "1b",
     },
     extraItems = {
         {class = "Misc", name = "Mythical Glitch Core", price = "2000k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "50k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "10k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "5k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "40k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "1k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "5k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "10k", version = nil, shiny = nil, tier = nil},
-        {class = "Misc", name = "", price = "100k", version = nil, shiny = nil, tier = nil},
-    },
-    hopWait = 4,
+    }
+    hopWait = 1,
     includeProPlaza = false,
+    includeUserInWebhook = true,
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c8e988a0f72082f55958de42db346230.lua"))()
